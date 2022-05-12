@@ -6,7 +6,7 @@ A Microsoft CFB _(Compound File Binary)_ parsing library in `go`
 Status  
 ------
  
-This library collection is intended to allow an application to interact with and output data from MS CFB file architectures.  
+This collection of libraries can be used to allow your go application to interact with and output data from Legacy Microsoft Docs that employ the [MS CFB file architectures](http://msdn.microsoft.com/en-us/library/dd942138.aspx).  
 
 Experimental / Concept  
 
@@ -16,12 +16,6 @@ Use at your own peril!
 Installing
 ------
 
-Make sure you have `go` installed and you have your `$GOPATH` configuration set
 ```sh
-export GOPATH=$HOME/gocode
-export PATH=$PATH:$GOPATH/bin
-```
-
-```sh
-$ go get -v github.com/JoNilsson/go_ms_cfb
+$ go get github.com/JoNilsson/go_ms_cfb
 ```
